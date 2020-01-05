@@ -8,6 +8,17 @@ body {
 	background: #204862;
 }
 
+header {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;;
+}
+
+img {
+	margin-top: -25px;
+	margin-left: 40px;
+}
+
 h1 {
 	color: #fff;
 	text-align: center;
@@ -17,7 +28,6 @@ form {
 	width: 95%;
 	max-width: 500px;
 	margin: auto;
-	background-color: #fff;
 	border-radius: 7px;	
 }
 
@@ -46,6 +56,7 @@ h2 {
 }
 
 input {
+	margin-top: 10px;
 	margin-bottom: 15px;
 	padding: 15px;
 	font-size: 16px;
@@ -85,14 +96,18 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 	margin: 7px;
 	text-align: center;
 	font-size: 14px;
+	color: #fff;
 }
 
 .div_error {
 	font-size: 10px;
 	font-weight: bold;
-	margin-bottom: 10px;
 }
 
 a {
-	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+
 }
