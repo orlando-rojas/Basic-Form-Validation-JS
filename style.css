@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;	
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background: #204862;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+}
+
+form {
+	width: 95%;
+	max-width: 500px;
+	margin: auto;
+	background-color: #fff;
+	border-radius: 7px;	
+}
+
+h2 {
+	background-color: crimson;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: auto;
+}
+
+input {
+	margin-bottom: 15px;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid darkgray;
+}
+
+input:focus {
+	outline: none;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+#btn-div {
+	width: 100%
+}
+
+.btn-send {
+	background: crimson;
+	color: #fff;
+	margin-left: 35%;
+	padding: 10px 40px;
+	cursor: pointer;
+}
+
+.btn-send:active {
+	transform: scale(1.05);
+	transition: 0.5s;
+}
+
+.form_link {
+	padding-bottom: 10px;
+	width: 100%;
+	margin: 7px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.div_error {
+	font-size: 10px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+a {
+	font-weight: bold;
+}
